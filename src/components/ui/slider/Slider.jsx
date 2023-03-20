@@ -38,7 +38,7 @@ const Slider = ({ topGames }) => {
                   alt=""
                 />
                 <p className={styles.info__about}>{game.about}</p>
-                <button tabindex="-1" className={styles.info__btn}>
+                <button tabIndex="-1" className={styles.info__btn}>
                   Download now
                 </button>
               </div>

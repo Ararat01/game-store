@@ -5,7 +5,7 @@ const GameCard = ({ game }) => {
     <div className={styles.gameCard}>
       <img
         className={styles.gameCard__img}
-        src={`/img/games/${game.img}`}
+        src={`img/games/${game.img}`}
         alt=""
       />
       <h4 className={styles.gameCard__name}>{game.name}</h4>
