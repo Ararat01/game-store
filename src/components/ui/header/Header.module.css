@@ -1,0 +1,23 @@
+header .navbar {
+  background-color: #313131;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: #fff;
+  height: 90px;
+}
+header .navbar__logo {
+  line-height: 30px;
+}
+header .navbar__navs a {
+  color: #fff;
+  font-size: 19px;
+  letter-spacing: 1px;
+  margin: 0 10px;
+  transition: letter-spacing 0.3s;
+}
+header .navbar__navs a:hover {
+  letter-spacing: 2px;
+}

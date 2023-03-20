@@ -1,0 +1,14 @@
+footer {
+  width: 60%;
+  border-top: 1px solid #fff;
+  color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+}
+footer ul {
+  margin: 20px 0;
+  list-style: none;
+}
+footer a {
+  color: #ffbb32;
+}
