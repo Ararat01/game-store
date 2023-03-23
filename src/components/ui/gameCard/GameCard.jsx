@@ -4,7 +4,7 @@ import styles from "./GameCard.module.css";
 const GameCard = ({ game }) => {
   const nav = useNavigate();
   const openGame = () => {
-    nav(`/game/${game.id}`);
+    nav(`/game-store/game/${game.id}`);
   };
   return (
     <div onClick={openGame} className={styles.gameCard}>

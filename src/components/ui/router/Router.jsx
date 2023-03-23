@@ -6,8 +6,8 @@ const Router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<Home />} path="/" />
-        <Route element={<GameView />} path="/game/:id" />
+        <Route element={<Home />} path="/game-store" />
+        <Route element={<GameView />} path="/game-store/game/:id" />
       </Routes>
     </BrowserRouter>
   );
