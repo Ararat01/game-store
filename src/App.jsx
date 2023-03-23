@@ -1,11 +1,11 @@
 import "./App.css";
 import "./assets/styles/global.css";
-import Home from "./components/screens/home/Home";
+import Router from "./components/ui/router/Router";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Router />
     </div>
   );
 }

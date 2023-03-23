@@ -10,6 +10,9 @@ header .navbar {
 }
 header .navbar__logo {
   line-height: 30px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
 }
 header .navbar__navs a {
   color: #fff;

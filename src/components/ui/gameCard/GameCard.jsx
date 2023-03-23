@@ -1,8 +1,13 @@
+import { useNavigate } from "react-router-dom";
 import styles from "./GameCard.module.css";
 
 const GameCard = ({ game }) => {
+  const nav = useNavigate();
+  const openGame = () => {
+    nav(`/game/${game.id}`);
+  };
   return (
-    <div className={styles.gameCard}>
+    <div onClick={openGame} className={styles.gameCard}>
       <img
         className={styles.gameCard__img}
         src={`/game-store/img/games/${game.img}`}

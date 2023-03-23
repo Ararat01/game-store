@@ -1,0 +1,85 @@
+.game {
+  width: 1000px;
+  margin: 0 auto;
+}
+.game__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.game__info_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 30px;
+  color: #fff;
+}
+.game__info_right p {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+.game__info_right h4 {
+  font-size: 22px;
+  color: #ffbb32;
+  font-weight: 400;
+  margin: 25px 0 15px;
+}
+.game__name {
+  font-size: 28px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.game__img {
+  width: 300px;
+}
+.game__rating,
+.game__downloads {
+  color: #fff;
+}
+.game__rating span,
+.game__downloads span {
+  color: #ffbb32;
+}
+.game__about {
+  margin: 15px 0;
+}
+.game__about h4 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #ffbb32;
+  font-weight: 400;
+}
+.game__about p {
+  font-size: 18px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+.game__download {
+  text-align: center;
+}
+.game__download p {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 400;
+}
+.game__download p span {
+  color: #ffbb32;
+}
+.game__download a {
+  font-size: 20px;
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #ffbb32;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: #fff;
+  transition: 0.3s;
+}
+.game__download a:hover {
+  background-color: #ffbb32;
+  color: #313131;
+  transform: scale(1.1);
+}

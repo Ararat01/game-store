@@ -28,13 +28,13 @@ const Slider = ({ topGames }) => {
               key={game.id}
               className={styles.info}
               style={{
-                backgroundImage: `url('img/topGames/${game.background}')`,
+                backgroundImage: `url('https://ararat01.github.io/game-store/img/topGames/${game.background}')`,
               }}
             >
               <div className={styles.info__body}>
                 <img
                   className={styles.info__img}
-                  src={`img/topGames/${game.logo}`}
+                  src={`/game-store/img/topGames/${game.logo}`}
                   alt=""
                 />
                 <p className={styles.info__about}>{game.about}</p>
